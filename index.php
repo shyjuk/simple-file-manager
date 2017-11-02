@@ -462,6 +462,6 @@ $(function(){
 </tr></thead><tbody id="list">
 
 </tbody></table>
-<div id="show_warn"  style="color:#FF00FF">Can not upload? Did you try setting permission.(Example: chown www-data:www-data sfm-directory) </div>
+<div id="show_warn"  style="color:#FF00FF">Can not upload? Did you try setting directory permission.(Example: chown www-data:www-data sfm-directory) </div>
 <footer>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
 </body></html>

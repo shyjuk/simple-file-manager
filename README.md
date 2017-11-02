@@ -28,4 +28,10 @@ If you allow uploads on the public web, it is only a matter of time before your 
  - Use a `.htaccess` file with Apache, or `auth_basic` for nginx
  - Only use this on a private network
 
+## Troubleshooting
+
+If you can not find the upload function check the folder permission.
+
+- chown -R www-data:www-data <simple-file-manager direcory>
+
 HT: [@beardog108](https://github.com/beardog108)

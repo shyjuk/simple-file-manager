@@ -32,6 +32,6 @@ If you allow uploads on the public web, it is only a matter of time before your 
 
 If you can not find the upload function check the folder permission.
 
-- chown -R www-data:www-data simple-file-manager direcory
+- chown -R www-data:www-data simple-file-manager directory
 
 HT: [@beardog108](https://github.com/beardog108)

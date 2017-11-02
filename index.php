@@ -191,7 +191,9 @@ label { display:block; font-size:11px; color:#555;}
 #upload_progress {padding: 4px 0;}
 #upload_progress .error {color:#a00;}
 #upload_progress > div { padding:3px 0;}
+#show_warn {font-size:11px; color:#ff00ff; padding:4em 0 0;text-align: left;}
 .no_write #mkdir, .no_write #file_drop_target {display: none}
+.show_warn #show_warn {display: none}
 .progress_track {display:inline-block;width:200px;height:10px;border:1px solid #333;margin: 0 4px 0 10px;}
 .progress {background-color: #82CFFA;height:10px; }
 footer {font-size:11px; color:#bbbbc5; padding:4em 0 0;text-align: left;}
@@ -460,5 +462,6 @@ $(function(){
 </tr></thead><tbody id="list">
 
 </tbody></table>
+<div id="show_warn"  style="color:#FF00FF">Can not upload? Did you try setting permission.(Example: chown www-data:www-data sfm-directory) </div>
 <footer>simple php filemanager by <a href="https://github.com/jcampbell1">jcampbell1</a></footer>
 </body></html>

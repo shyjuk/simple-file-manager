@@ -1,6 +1,10 @@
 simple-file-manager
 ===================
 
+## Screenshot
+
+![Screenshot](https://raw.github.com/jcampbell1/simple-file-manager/master/screenshot.png "Screenshot")
+
 A Simple PHP file manager.  The code is a single php file.  
 
 Just copy `index.php` to a folder on your webserver.  
@@ -25,7 +29,3 @@ If you allow uploads on the public web, it is only a matter of time before your 
  - Only use this on a private network
 
 HT: [@beardog108](https://github.com/beardog108)
-
-## Screenshot
-
-![Screenshot](https://raw.github.com/jcampbell1/simple-file-manager/master/screenshot.png "Screenshot")
